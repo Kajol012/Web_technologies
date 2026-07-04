@@ -1,0 +1,50 @@
+
+*{
+    font-family: Arial, sans-serif;
+}
+
+
+
+label{
+    font-weight: bold;
+}
+
+textarea{
+    resize: none;
+}
+
+
+
+input[type="radio"]{
+    width: auto;
+}
+
+input[type="submit"]{
+    background-color: green;
+    color: white;
+}
+
+input[type="reset"]{
+    background-color: red;
+    color: white;
+}
+
+
+
+.btn:hover{
+    background-color: black;
+}
+
+
+
+#intro{
+    color: darkblue;
+}
+
+
+
+input:focus,
+textarea:focus,
+select:focus{
+    border:2px solid blue;
+}
